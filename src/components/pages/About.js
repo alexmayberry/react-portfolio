@@ -1,5 +1,6 @@
 import React from "react";
-import photo from '../images/alex-mushroom-web.png'
+import photo from '../../images/alex-mushroom-web.png'
+import tools from "../../data/toolsData.json"
 
 function About() {
     return (
