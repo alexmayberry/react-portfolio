@@ -3,7 +3,7 @@ import photo from '../images/alex-mushroom-web.png'
 
 function About() {
     return (
-        <div>
+        <div id="about-me">
             <div>
                 <p>
                 Currently enrolled in the UW Fullstack Web Development Bootcamp seeking a role as a Frontend Developer.
