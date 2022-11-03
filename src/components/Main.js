@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import Nav from "./Nav";
 import Portfolio from "./pages/Portfolio.js";
 import About from './pages/About';
-import Contact from './pages/Contact';
+import Blog from './pages/Blog';
+import { Container, CssBaseline } from "@mui/material";
 
 function Main() {
     const [currentPage, setCurrentPage] = useState('Portfolio');
@@ -10,7 +11,7 @@ function Main() {
     const renderPage = () => {
     if ( currentPage === 'About Me' ) return <About />;
     if ( currentPage === 'Portfolio' ) return <Portfolio />;
-    if ( currentPage === 'Contact' ) return <Contact />;
+    if ( currentPage === 'Blog' ) return <Blog />;
     }
     
     const changePage = (page) => {
@@ -19,9 +20,11 @@ function Main() {
 
     return (
         <>
-        <Nav  currentPage={ currentPage } changePage={ changePage }/>
-        <h1>Main!</h1>
-        { renderPage() }
+            <CssBaseline />
+            <Container maxWidth={"xl"} >
+                <Nav  currentPage={ currentPage } changePage={ changePage } />
+                { renderPage() }
+            </Container>
         </>
     )
 };

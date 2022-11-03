@@ -1,0 +1,15 @@
+a {
+    text-decoration: none;
+}
+.nav-link {
+    color: #f3a712;
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.nav {
+    border: dashed;
+    border-color: #f3a712;
+}
