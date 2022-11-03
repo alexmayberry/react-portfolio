@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {projects, tools} from "../projectData";
+import {projects, tools} from "../data/projectData";
 
 function Main( { renderPage }) {
 

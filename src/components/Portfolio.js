@@ -1,14 +1,14 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-
-import {projects, tools} from "../projectData";
+//import tools from "../data/toolsData.json"
+import {projects} from "../data/projectData";
 
 
 function Portfolio(props) {
     return (
         <>
             { projects.map((projects) => (
-            <ProjectCard projectData={projects} tools={tools}/>
+            <ProjectCard projectData={projects} />
             ))}
         </>
     );

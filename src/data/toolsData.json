@@ -1,0 +1,67 @@
+{
+    "react": {
+        "name": "React.js",
+        "logo": "logo",
+        "docs": "link.org"
+    },
+    "GraphQL": {
+        "name": "GraphQL",
+        "logo": "logo",
+        "docs": "link.org"
+    },
+    "node": {
+        "name": "Node.js",
+        "logo": "logo",
+        "docs": "link.org"
+    },
+    "mongoDB": {
+        "name": "MongoDB",
+        "logo": "logo",
+        "docs": "link.org"
+    },
+    "apollo": {
+        "name": "Apollo",
+        "logo": "logo",
+        "docs": "link.org"
+    },
+    "jest": {
+        "name": "Jest",
+        "logo": "logo",
+        "docs": "link.org"
+    },
+    "insomnia": {
+        "name": "Insomnia",
+        "logo": "logo",
+        "docs": "link.org"
+    },
+    "mapbox": {
+        "name": "Mapbox",
+        "logo": "logo",
+        "docs": "link.org"
+    },
+    "html5": {
+        "name": "HTML5",
+        "logo": "logo",
+        "docs": "link.org"
+    },
+    "bulma": {
+        "name": "Bulma",
+        "logo": "logo",
+        "docs": "link.org"
+    },
+    "handlebars": {
+        "name": "Handlebars.js",
+        "logo": "logo",
+        "docs": "link.org"
+    },
+    "javascript": {
+        "name": "JavaScript",
+        "logo": "logo",
+        "docs": "link.org"
+    },
+    "heroku": {
+        "name": "Heroku",
+        "logo": "logo",
+        "docs": "link.org"
+    }
+}

@@ -10,15 +10,7 @@ function ProjectCard(props) {
     console.log(props.projectData)
 
     return (
-        <div>
-            {/* <h1>{props.projectData.name}</h1>
-            <p>{props.projectData.description}</p>
-            <p>test</p>
-            <div>
-                <img src={props.projectData.image} alt={props.projectData.name}></img>
-            </div> */}
-            
-        <Card sx={{ maxWidth: 345 }}>
+        <Card key={props.projectData.id} sx={{ maxWidth: 345 }}>
             <CardMedia
                 component="img"
                 height="140"
@@ -38,7 +30,6 @@ function ProjectCard(props) {
                 <Button size="small" href={props.projectData.livePage}>Live Project</Button>
             </CardActions>
             </Card>
-        </div>
     )
 }
 

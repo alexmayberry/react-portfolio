@@ -6,19 +6,13 @@ function Nav({ currentPage, changePage }) {
     <div className="Nav">
       <h1 className="display-1">Nav!!</h1>
 
-      <ul>
-        <li>
-          <link href="#portfolio" onClick={()=>changePage('Porfolio')}>Portfolio</link>
-        </li>
-        <li>
-          <link href="#about-me" onClick={()=>changePage('About Me')}>About Me</link>
-        </li>
-        <li>
-          <link href="#Contact" onClick={()=>changePage('Contact')}>Contact</link>
-        </li>
-      </ul>
+      <nav>
+          <a href="#portfolio" onClick={()=>changePage('Porfolio')}>Portfolio </a>
+          <a href="#about-me" onClick={()=>changePage('About Me')}>About Me </a>
+          <a href="#Contact" onClick={()=>changePage('Contact')}>Contact</a>
+      </nav>
 
-    </div>
+    </div> 
   );
 }
 
