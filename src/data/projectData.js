@@ -17,7 +17,7 @@ export const projects = [
         id: 2,
         name: "AuxNudge",
         description: "Song search based on user input/random word generator.",
-        livePage: 'https://heroku.com',
+        livePage: 'https://ccaitano.github.io/aux-nudge/',
         repo: "https://github.com/alexmayberry/aux-nudge",
         gif: "gif",
         image: auxNudgeLarge,
