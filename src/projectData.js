@@ -71,10 +71,10 @@ export const tools = {
 
 export const projects = [
     {
-        name: "codesign",
+        name: "CommunityVision",
         description: "Fullstack web app designed to facilitate and organize community driven urban design proposals.",
-        livePage: 'link.heroku.com',
-        repo: "github.com/alexmayberry/codesign",
+        livePage: 'https://heroku.com',
+        repo: "https://github.com/alexmayberry/community-vision",
         gif: "gif",
         image: codesignPlaceholderImage,
         tools: [tools.react, tools.mongoDB, tools.GraphQL, tools.apollo, tools.mapbox, ]
@@ -82,8 +82,8 @@ export const projects = [
     {
         name: "AuxNudge",
         description: "Song search based on user input/random word generator.",
-        livePage: 'link.heroku.com',
-        repo: "github.com/alexmayberry/aux-nudge",
+        livePage: 'https://heroku.com',
+        repo: "https://github.com/alexmayberry/aux-nudge",
         gif: "gif",
         image: auxNudgeLarge,
         tools: [tools.html5, tools.bulma, tools.heroku, tools.javascript, tools.handlebars, ]

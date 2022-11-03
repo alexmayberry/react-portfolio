@@ -1,18 +1,20 @@
 import React from "react";
 
-function Nav() {
+function Nav({ currentPage, changePage }) {
+
   return (
     <div className="Nav">
       <h1 className="display-1">Nav!!</h1>
+
       <ul>
         <li>
-          <link>Portfolio</link>
+          <link href="#portfolio" onClick={()=>changePage('Porfolio')}>Portfolio</link>
         </li>
         <li>
-          <link>About Me</link>
+          <link href="#about-me" onClick={()=>changePage('About Me')}>About Me</link>
         </li>
         <li>
-          <link>Resume</link>
+          <link href="#Contact" onClick={()=>changePage('Contact')}>Contact</link>
         </li>
       </ul>
 

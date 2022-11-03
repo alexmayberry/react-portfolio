@@ -1,25 +1,17 @@
-import React, { useState } from "react";
-import ProjectCard from './ProjectCard.js';
-import {projects, tools} from "../projectData";
+import React from "react";
+import ProjectCard from "./ProjectCard";
 
-const styles = {
-    portfolio: {
-        margin: 20,
-        backgound: '#e8eaf6'
-    }
-}
+import {projects, tools} from "../projectData";
 
 
 function Portfolio(props) {
-    console.log(props);
     return (
-        <div style={styles.portfolio}>
-            <p>{props.name}</p>
+        <>
             { projects.map((projects) => (
-            <ProjectCard projectData={projects} />
+            <ProjectCard projectData={projects} tools={tools}/>
             ))}
-        </div>
-    )
-};
+        </>
+    );
+}
 
 export default Portfolio;
