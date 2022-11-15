@@ -23,4 +23,14 @@ export const projects = [
         image: auxNudgeLarge,
         tools: [tools.html5, tools.bulma, tools.heroku, tools.javascript, tools.handlebars, ]
     },
+    {
+        id: 3,
+        name: "CommunityVision",
+        description: "A platform for people to envision public projects in their communities.",
+        livePage: 'https://community-vision.herokuapp.com/',
+        repo: "https://github.com/alexmayberry/community-vision",
+        gif: "gif",
+        image: '',
+        tools: [tools.node, tools.heroku, tools.javascript, tools.react, tools.GraphQL, tools.apollo, tools.mongoDB ]
+    },
 ];
