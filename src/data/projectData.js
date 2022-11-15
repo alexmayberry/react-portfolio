@@ -1,6 +1,7 @@
 import tools from "./toolsData.json"
 import codesignPlaceholderImage from "../images/placeholder-small.jpg";
 import auxNudgeLarge from "../images/aux-nudge-large.PNG";
+import communityVisionGif from "../images/CommunityVisiondemo.gif"
 
 export const projects = [
     {
@@ -29,8 +30,8 @@ export const projects = [
         description: "A platform for people to envision public projects in their communities.",
         livePage: 'https://community-vision.herokuapp.com/',
         repo: "https://github.com/alexmayberry/community-vision",
-        gif: "gif",
-        image: '',
+        gif: '',
+        image: communityVisionGif,
         tools: [tools.node, tools.heroku, tools.javascript, tools.react, tools.GraphQL, tools.apollo, tools.mongoDB ]
     },
 ];
