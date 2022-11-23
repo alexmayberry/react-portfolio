@@ -35,7 +35,7 @@
 
   ## Deployed Page
   
-  https://alexmayberry.github.io/react-portfolio/
+  https://alexmayberry.github.io
 
   ## GitHub Repo
 
