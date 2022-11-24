@@ -35,7 +35,7 @@
 
   ## Deployed Page
   
-  https://alexmayberry.github.io
+  https://alexmayberry.net
 
   ## GitHub Repo
 
