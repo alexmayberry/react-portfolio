@@ -31,11 +31,11 @@
 
   **Email:** alexclimbs@gmail.com
 
-  **Website:** alexmayberry.com
+  **Website:** https://alexmayberry.net
 
   ## Deployed Page
   
-  https://alexmayberry.github.io
+  https://alexmayberry.net
 
   ## GitHub Repo
 
