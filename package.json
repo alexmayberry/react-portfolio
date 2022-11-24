@@ -1,8 +1,8 @@
 {
-  "name": "alexmayberry.github.io",
+  "name": "alex-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alexmayberry.github.io",
+  "homepage": "https://alexmayberry.net",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
