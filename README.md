@@ -31,7 +31,7 @@
 
   **Email:** alexclimbs@gmail.com
 
-  **Website:** alexmayberry.com
+  **Website:** https://alexmayberry.net
 
   ## Deployed Page
   
