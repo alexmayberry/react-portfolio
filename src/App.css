@@ -1,15 +1,15 @@
 .App {
   color: whitesmoke;
-  background-color:#ff0000;
+  background-color:#ffffff;
   min-height: 100vh;
 }
 
 .secondary-color {
-  color: #f3a712;
+  color: #000000;
 }
 
 .nav-link {
-  color: "#f3a712";
+  color: #000000;
 }
 
 .active {
