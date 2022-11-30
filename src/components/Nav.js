@@ -1,6 +1,9 @@
 import { Box, Grid } from "@mui/material";
 import React from "react";
+import CCIcon from "./CCIcon";
 import './Nav.css';
+import TandemIcon from "./TandemIcon";
+// import ccSVG from "../images/ccheart_black.svg"
 
 function Nav({ currentPage, changePage }) {
 
@@ -27,6 +30,9 @@ function Nav({ currentPage, changePage }) {
             >
               Alex Mayberry
             </h1>
+            <TandemIcon />
+            <CCIcon />
+            <p>Bicycle tandem by abeldb from <a href="https://thenounproject.com/browse/icons/term/bicycle-tandem/" target="_blank" rel="noreferrer" title="Bicycle tandem Icons">Noun Project</a></p>
           </Grid>
           <Grid 
           item

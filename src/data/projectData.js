@@ -6,7 +6,7 @@ import placeholderImage from "../images/placeholder-small.jpg";
 import auxNudgeImage from "./aux-nudge/aux-nudge-large.PNG";
 
 // gif imports
-import communityVisionGif from "./community-vision/CommunityVisiondemo.gif"
+import communityVisionGif from "./community-vision/communityvisiondemo.gif"
 
 // projects object
 export const projects = [

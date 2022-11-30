@@ -1,5 +1,5 @@
 import React from "react";
-import photo from '../../images/alex-mushroom-web.png'
+import photo from '../../images/alDubleDuble_gimp_crop.webp'
 import tools from "../../data/toolsData.json"
 import { Grid } from "@mui/material";
 
@@ -19,9 +19,10 @@ function About() {
                 >
                     <img 
                     src={photo} 
-                    alt="me, alex with a huge mushroom"
+                    alt="me, alex, steering a tandem bike with me, alex, on the back"
                     style={{ maxHeight:"400px", paddingTop:"1rem" }}
-                    ></img>            
+                    ></img>   
+                    <p>Photo by <a href="https://ryanrot.haus/">ryan rothaus</a></p>         
                 </Grid>
                 <Grid 
                 item
