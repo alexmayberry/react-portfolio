@@ -30,9 +30,9 @@ function Nav({ currentPage, changePage }) {
             >
               Alex Mayberry
             </h1>
-            <TandemIcon />
-            <CCIcon />
-            <p>Bicycle tandem by abeldb from <a href="https://thenounproject.com/browse/icons/term/bicycle-tandem/" target="_blank" rel="noreferrer" title="Bicycle tandem Icons">Noun Project</a></p>
+            <TandemIcon className="forget-about-it" />
+            <CCIcon className="forget-about-it" />
+            <p className="forget-about-it">Bicycle tandem by abeldb from <a href="https://thenounproject.com/browse/icons/term/bicycle-tandem/" target="_blank" rel="noreferrer" title="Bicycle tandem Icons">Noun Project</a></p>
           </Grid>
           <Grid 
           item

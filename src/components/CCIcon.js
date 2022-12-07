@@ -1,6 +1,7 @@
 import React from "react";
 
-function CCIcon() {
+
+function CCIcon(className) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -12,6 +13,7 @@ function CCIcon() {
       shapeRendering="geometricPrecision"
       textRendering="geometricPrecision"
       viewBox="0 0 46296.26 40689.13"
+      className={className}
     >
       <defs>
         <style></style>

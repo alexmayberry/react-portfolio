@@ -14,7 +14,7 @@ export const projects = [
         id: 1,
         name: "WhoGot?",
         description: "Fullstack web app designed to facilitate and organize community driven urban design proposals.",
-        livePage: 'https://heroku.com',
+        livePage: '#work',
         repo: "https://github.com/alexmayberry/community-vision",
         gif: "gif",
         image: placeholderImage,

@@ -10,7 +10,14 @@ a {
     font-weight: bold;
     color: #F07912;
 }
-.nav {
+/* .nav {
     border: dashed;
     border-color: #f3a712;
+} */
+
+@media screen and (max-width: 750px){
+    .forget-about-it {
+    display: none;
+    }
+    
 }

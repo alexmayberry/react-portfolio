@@ -1,6 +1,7 @@
 import React from "react";
 
-function TandemIcon() {
+
+function TandemIcon(className) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -8,6 +9,7 @@ function TandemIcon() {
       height="174"
       fill="none"
       viewBox="0 0 598 174"
+      className={className}
     >
       <path
         fill="#3B6BF9"
