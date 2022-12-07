@@ -22,7 +22,7 @@ function Nav({ currentPage, changePage }) {
           xs={4}
           md={8}
           lg={9}
-          style={{ display:"flex", justifyContent:"flex-start" }}
+          style={{ display:"flex", justifyContent:"flex-start", alignItems: "center" }}
           >
             <h1 
             className="secondary-color" 
@@ -30,9 +30,11 @@ function Nav({ currentPage, changePage }) {
             >
               Alex Mayberry
             </h1>
-            <TandemIcon className="forget-about-it" />
-            <CCIcon className="forget-about-it" />
-            <p className="forget-about-it">Bicycle tandem by abeldb from <a href="https://thenounproject.com/browse/icons/term/bicycle-tandem/" target="_blank" rel="noreferrer" title="Bicycle tandem Icons">Noun Project</a></p>
+
+            <TandemIcon />
+            {/* <CCIcon /> */}
+           
+
           </Grid>
           <Grid 
           item
@@ -77,6 +79,17 @@ function Nav({ currentPage, changePage }) {
                 
                 >
                   Blog
+                </a>
+              </Grid>
+              <Grid 
+              item
+              >
+                <a href="https://docs.google.com/document/d/1KGfhUsZhSVNifB4NSOG062JwgrpuReTMK5ChvZBdPkE/edit?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className={'nav-link'}
+                >
+                  Resume
                 </a>
               </Grid>
             </Grid>

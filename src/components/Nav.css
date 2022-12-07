@@ -15,7 +15,30 @@ a {
     border-color: #f3a712;
 } */
 
-@media screen and (max-width: 750px){
+.tandem {
+    width: 200px;
+}
+
+.cc-icon {
+    margin: 5px;
+    margin-top: 0px;
+}
+
+.hidden {
+    flex-direction: row;
+    align-items: center;
+    display: none;
+}
+
+.tandem:hover ~ .hidden {
+    display: flex;
+}
+
+.hidden:hover {
+    display: flex;
+}
+
+@media screen and (max-width: 900px){
     .forget-about-it {
     display: none;
     }

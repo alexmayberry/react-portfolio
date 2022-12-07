@@ -3,6 +3,7 @@ import ProjectCard from "../ProjectCard";
 import {projects} from "../../data/projectData";
 import { Box, Grid } from "@mui/material";
 
+// implement project rating sort function to sort projects based on my own quality rating.
 
 function Portfolio(props) {
     return (
