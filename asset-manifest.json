@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.35a01700.css",
-    "main.js": "/static/js/main.207bd07d.js",
+    "main.css": "/static/css/main.dc2fe741.css",
+    "main.js": "/static/js/main.f435e6d3.js",
     "static/js/787.7872f7f0.chunk.js": "/static/js/787.7872f7f0.chunk.js",
-    "static/media/CommunityVisiondemo.gif": "/static/media/CommunityVisiondemo.35beba9b25be0d43b9ee.gif",
-    "static/media/alex-mushroom-web.png": "/static/media/alex-mushroom-web.ee45b9391b1c8ba983d0.png",
+    "static/media/communityvisiondemo.gif": "/static/media/communityvisiondemo.35beba9b25be0d43b9ee.gif",
+    "static/media/alDubleDuble_gimp_crop.webp": "/static/media/alDubleDuble_gimp_crop.3be487f72ba905d2aed7.webp",
     "static/media/aux-nudge-large.PNG": "/static/media/aux-nudge-large.c7a3968494fe19113ae0.PNG",
     "index.html": "/index.html",
-    "main.35a01700.css.map": "/static/css/main.35a01700.css.map",
-    "main.207bd07d.js.map": "/static/js/main.207bd07d.js.map",
+    "main.dc2fe741.css.map": "/static/css/main.dc2fe741.css.map",
+    "main.f435e6d3.js.map": "/static/js/main.f435e6d3.js.map",
     "787.7872f7f0.chunk.js.map": "/static/js/787.7872f7f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35a01700.css",
-    "static/js/main.207bd07d.js"
+    "static/css/main.dc2fe741.css",
+    "static/js/main.f435e6d3.js"
   ]
 }
